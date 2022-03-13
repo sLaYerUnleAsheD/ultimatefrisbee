@@ -1,0 +1,117 @@
+header{
+	background: #FF6363 url('../images/frisbee.jpg') 8% 15% no-repeat;
+	background-size: 110%;
+	padding: 1%;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Courier,fantasy,Arial;
+	color: #FFFDA2;
+}
+h2{
+	background: #BAFFB4;
+	font-family: sans-serif,fantasy,Arial;
+	color: #064420;
+	display: inline-block;
+	width: 21%;
+	padding: 1%;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+/*section{
+	background: #BAFFB4;
+}*/
+/*img{
+	display: none;
+}*/
+body{
+	padding: 0.2% 2% 0.2% 2%;
+}
+nav a{
+	color: #4C4C6D;
+	background-color: #FFFDA2;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 18%;
+	padding: 1%;
+	margin: 2%;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.active{
+	background-image: url('../images/holographic.jpg');
+	background-position: 50%;
+	background-size: 100%;
+}
+.right{
+	display: inline-block;	
+	float: left;
+	width: 78%;
+	font-size: 20px;
+	height: 100%;
+	margin: 1%;
+}
+.left{
+	width: 20%;
+	background: #064420;
+	float: left;
+	height: 100vh;
+}
+.left img{
+	border: solid 3px #BAFFB4;
+	width: 80%;
+	margin: 8%;
+}
+.left a{
+	margin: 0 auto;
+}
+table{
+	margin: 0% 20% 0% 20%;
+}
+th{
+	background: #B8FFF9;
+	border: solid 2px #85F4FF;
+	border-width: 1px 1px 4px 1px;
+	font-family: Courier,fantasy,Arial;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-o-border-radius: 5px 5px 0px 0px;
+	-ms-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px;
+}
+tr td{
+	text-align: center;
+	padding: 8px;
+	background: #C8F2EF;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-shadow: 1px 1px 1px #ffffff;
+	background-image: linear-gradient(to right, #9AD0EC, #EEF2FF, #B8E4F0);
+}
+tr{
+	opacity: 0.6;
+	transition: opacity 0.5s ease-out;
+}
+tr:hover{
+	opacity: 1;
+}
+tr td:first-child, tr:first-child{
+	text-align: left;
+	opacity: 1;
+}
+tr th{
+	background-image: linear-gradient(180deg, #B8FFF9, #398AB9);
+}
