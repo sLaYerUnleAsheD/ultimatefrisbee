@@ -1,2 +1,2 @@
-# ultimatefrisbee.github.io
+# ultimatefrisbee
 Final project of my CSS Course!
